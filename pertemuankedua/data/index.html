@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data dari JavaScript ke HTML</title>
+</head>
+<body>
+    <h1>Data dari JavaScript ke HTML</h1>
+    <div id="IDdata"></div>
+
+    <script>
+        var nama = "sodikin";
+
+        console.log(nama)
+
+        var sendData = document.getElementById("IDdata");
+
+        var htmlString = "<p>Nama: "+nama +"</p> "
+                         +"<p> Umur : 12"+
+                        "<p>Pekerjaan: Mahasiswa</p>";
+
+        sendData.innerHTML = htmlString;
+    </script>
+</body>
+</html>

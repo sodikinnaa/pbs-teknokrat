@@ -4,5 +4,4 @@ function getNama(nama){
     return `Hallo, nama saya ${nama}`
 }
 
-// console.log(window.getNama('sodikin'))
-module.exsports = getNama
+console.log(getNama('sodikin'))
